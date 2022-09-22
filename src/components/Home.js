@@ -15,7 +15,13 @@ export default function Home() {
         <TestimonialCard />
         <TestimonialCard />
       </div>
-      <MDBCardLink href="#" style={{ marginTop: "2rem", float: "right" }}>
+      <MDBCardLink
+        href="#"
+        style={{
+          marginTop: "2rem",
+          float: "right",
+        }}
+      >
         <i class="fas fa-chevron-up" style={{ width: "50px" }}></i>
       </MDBCardLink>
     </div>
