@@ -16,8 +16,7 @@ main {
 .h-100 {
   height: 100%;
 }
-.testimony {
-}
+
 /**********************/
 .grid {
   display: grid;
@@ -128,4 +127,20 @@ p {
 }
 .detail .info {
   margin-bottom: 0.5rem;
+}
+.input {
+  margin-top: 1rem;
+  padding-right: 11%;
+}
+.form {
+  width: 500px;
+  margin: auto;
+}
+.container {
+  padding: 20px;
+  text-align: center;
+}
+.mContent {
+  height: auto;
+  width: max-content;
 }

@@ -1,8 +1,10 @@
 import React from "react";
 import AboutMe from "./AboutMe";
 import Project from "./Project";
-import TestimonialCard from "./TestimonialCard";
+import AllTestimonial from "./AllTestimonial";
 import { MDBCardLink } from "mdb-react-ui-kit";
+import FormModal from "./FormModal";
+
 export default function Home() {
   return (
     <div>
@@ -10,11 +12,9 @@ export default function Home() {
       <h2 style={{ textAlign: "center" }}>Projects</h2>
       <Project />
       <h2 style={{ textAlign: "center" }}>Testimonials</h2>
-      <div className="grid">
-        <TestimonialCard />
-        <TestimonialCard />
-        <TestimonialCard />
-      </div>
+
+      <AllTestimonial />
+
       <MDBCardLink
         href="#"
         style={{
@@ -23,6 +23,15 @@ export default function Home() {
         }}
       >
         <i class="fas fa-chevron-up" style={{ width: "50px" }}></i>
+      </MDBCardLink>
+      <MDBCardLink
+        href="#"
+        style={{
+          marginTop: "2rem",
+          float: "center",
+        }}
+      >
+        <FormModal />
       </MDBCardLink>
     </div>
   );

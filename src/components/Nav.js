@@ -42,7 +42,9 @@ export default function Nav() {
               <MDBNavbarLink href="#">Projects</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarLink href="#">Testimonials</MDBNavbarLink>
-            <MDBNavbarItem></MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href="#">Give your testimony</MDBNavbarLink>
+            </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBContainer>
