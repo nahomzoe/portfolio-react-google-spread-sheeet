@@ -1,5 +1,7 @@
 import React from "react";
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
+import Video from "./Video";
+import picNahom from "../Export/edited2.jpg";
 
 const AboutMe = () => {
   return (
@@ -9,9 +11,10 @@ const AboutMe = () => {
         <div className="single-wrapper">
           <div className="card front-face">
             <img
-              src={
-                "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80"
-              }
+              src={picNahom}
+              // src={
+              //   "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80"
+              // }
             />
           </div>
         </div>
@@ -35,9 +38,7 @@ const AboutMe = () => {
             </p>
           </div>
           <div className="info">
-            {/* {" "}
-            <h3>Recipe is from:</h3>
-            {recipe.countryname} */}
+            <Video />
           </div>
           <div className="info">
             {/* {" "}

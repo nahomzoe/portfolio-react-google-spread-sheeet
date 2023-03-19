@@ -55,7 +55,7 @@ const FormModal = () => {
               {" "}
               <div className="container">
                 <div>
-                  <h2>React Google Sheets!</h2>
+                  <h2>Only sth good!</h2>
                 </div>
 
                 <form className="form" onSubmit={submitHandler}>

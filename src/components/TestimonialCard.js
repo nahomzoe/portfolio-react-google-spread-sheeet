@@ -11,20 +11,20 @@ const TestimonialCard = ({ testimony }) => {
   const [testimonies, setTestimonies] = useState([]);
   let { id } = useParams();
 
-  // useEffect(() => {
-  //   onSnapshot(testimoniesFetchRef, (snapshot) => {
-  //     const singleTestimony = snapshot.docs.find(
-  //       (doc) => doc.id === id
-  //     );
-  //     setTestimonies({
-  //       id: singleTestimony.id,
-  //       viewing: false,
-  //       ...singleTestimony.data(),
-  //     });
+  useEffect(() => {
+    onSnapshot(testimoniesFetchRef, (snapshot) => {
+      const singleTestimony = snapshot.docs.find(
+        (doc) => doc.id === id
+      );
+      setTestimonies({
+        id: singleTestimony.id,
+        viewing: false,
+        ...singleTestimony.data(),
+      });
 
-  //     console.log(snapshot);
-  //   });
-  // }, []);
+      console.log(snapshot);
+    });
+  }, []);
 
   return (
     <div className="wrapper">

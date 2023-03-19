@@ -4,6 +4,7 @@ import Project from "./Project";
 import AllTestimonial from "./AllTestimonial";
 import { MDBCardLink } from "mdb-react-ui-kit";
 import FormModal from "./FormModal";
+import Video from "./Video";
 
 export default function Home() {
   return (
