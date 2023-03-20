@@ -5,11 +5,13 @@ import AllTestimonial from "./AllTestimonial";
 import { MDBCardLink } from "mdb-react-ui-kit";
 import FormModal from "./FormModal";
 import Video from "./Video";
+import Ex from "./Ex";
 
 export default function Home() {
   return (
     <div>
       <AboutMe />
+      {/* <Ex /> */}
       <h2 style={{ textAlign: "center" }}>Projects</h2>
       <Project />
       <h2 style={{ textAlign: "center" }}>Testimonials</h2>
